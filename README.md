@@ -26,8 +26,10 @@ linux-sys-internals/
 ├── main.py              (Main entry point - mandatory)
 ├── disk_tool.py         (Disk monitoring module)
 ├── cpu_tool.py          (CPU monitoring module)
-├── memory_tool.py       (Memory statistics module)
+├── tcp_tool.py       (tcp connections module)
 ├── process_tool.py      (Process monitoring module)
+├── autorun_tool.py      (Linux autoruns module)
+
 
 Do NOT run tool files directly.
 Always run main.py.
@@ -35,8 +37,7 @@ Always run main.py.
 
 HOW TO RUN (ONLY SUPPORTED WAY)
 
-python main.py
-or
+
 python3 main.py
 
 This initializes the system environment, loads all tools,
